@@ -110,7 +110,7 @@ export default function App({ Component, pageProps }) {
   let pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle ||
     pageProps?.blog?.title ||
-    `${pageProps.markdoc?.frontmatter.title} - Docs`
+    `Yakir Blog`
 
   let description = pageProps.markdoc?.frontmatter.description
   // 交易明细

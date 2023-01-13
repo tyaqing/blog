@@ -38,7 +38,7 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/">
-          <span className="block w-10 overflow-hidden lg:w-auto">
+          <span className="dark:text-white block w-10 overflow-hidden lg:w-auto">
             <span className="sr-only">Home page</span>
             ABFree
             {/*<Logo />*/}
@@ -89,7 +89,7 @@ export function Layout({ children, title, navigation, tableOfContents }) {
   return (
     <>
       <Header navigation={navigation} />
-      <div className="bg-white relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+      <div className="bg-white dark:bg-slate-900 relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
           <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
           <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-16 pl-0.5">
