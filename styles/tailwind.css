@@ -1,0 +1,6 @@
+@import 'tailwindcss/base.css';
+@import '../styles/fonts.css';
+@import '../styles/docsearch.css';
+@import '../styles/prism.css';
+@import 'tailwindcss/components.css';
+@import 'tailwindcss/utilities.css';
